@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course Shop</h1>
+        
+        <!-- Course List -->
+        <div class="courses">
+            <div class="course" data-name="JavaScript Basics" data-price="29">
+                <h2>JavaScript Basics</h2>
+                <p>Price: $29</p>
+                <button onclick="addToCart('JavaScript Basics', 29)">Add to Cart</button>
+            </div>
+            <div class="course" data-name="HTML & CSS Fundamentals" data-price="19">
+                <h2>HTML & CSS Fundamentals</h2>
+                <p>Price: $19</p>
+                <button onclick="addToCart('HTML & CSS Fundamentals', 19)">Add to Cart</button>
+            </div>
+            <div class="course" data-name="React Beginner" data-price="39">
+                <h2>React Beginner</h2>
+                <p>Price: $39</p>
+                <button onclick="addToCart('React Beginner', 39)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Cart Section -->
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="total-price">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
