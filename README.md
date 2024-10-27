@@ -20,7 +20,9 @@ The primary goal of an e-commerce website is to sell a product or service and in
 ***Key Activities***
 
 -**Product promotion**: sellers promote their products or services on their website or other online channels
+
 -**Customer information**:Record customer information,such as name and address,and collect their acceptance of terms of service
+
 -**Payment proccessing**:provide a payment gateway and enable customers to pay using credit cards,digital wallets, or other payment options
 
 ***Technologies Used***
